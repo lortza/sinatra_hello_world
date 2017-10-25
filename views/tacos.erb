@@ -1,0 +1,10 @@
+
+<h1>Tacos Page!</h1>
+<img src="https://www.deltaco.com/files/menu/item/flatbreadtaco.png">
+<h2>Tenemos muchas salsa deliciosas, como...</h2>
+<p>Our daily special is: <span class="especial"><%= @daily_special %></span></p>
+<ul>
+  <% sauces.each do |sauce| %>
+    <li><%= sauce %></li>
+  <% end %>
+</ul>
